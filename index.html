@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SatyaAI - Fake News Detector</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>SatyaAI</h1>
+                <p>AI-Powered Fake News Detector</p>
+            </div>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#features">Features</a>
+                <a href="#how-it-works">How It Works</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="stats-container">
+                    <div class="stat-card">
+                        <i class="fas fa-chart-line"></i>
+                        <div class="stat-content">
+                            <h3>Accuracy Rate</h3>
+                            <p class="stat-number" id="accuracy-rate">95%</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-newspaper"></i>
+                        <div class="stat-content">
+                            <h3>Articles Analyzed</h3>
+                            <p class="stat-number" id="articles-analyzed">10,000+</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-shield-alt"></i>
+                        <div class="stat-content">
+                            <h3>Users Protected</h3>
+                            <p class="stat-number" id="users-protected">5,000+</p>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <h2 style="text-align: center;">Analysis News</h2>
+                <p>SatyaAI helps you detect fake news and misinformation using advanced AI technology</p>
+                <div class="input-container">
+                    <textarea id="news-input" placeholder="Paste your news article or message here..."></textarea>
+                    <button id="verify-btn" class="primary-btn">Verify News</button>
+                </div>
+                
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <h2>Key Features</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <i class="fas fa-robot"></i>
+                    <h3>AI-Powered Detection</h3>
+                    <p>Advanced NLP technology to analyze and detect fake news</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-language"></i>
+                    <h3>Multi-Language Support</h3>
+                    <p>Works with multiple regional languages</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-users"></i>
+                    <h3>Community Verification</h3>
+                    <p>Community-driven fact-checking system</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>SMS Integration</h3>
+                    <p>Verify news via SMS without internet</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="results" class="results">
+            <h2>Verification Results</h2>
+            <div id="result-container" class="result-container">
+                <div class="result-card">
+                    <div class="trust-score">
+                        <h3>Trust Score</h3>
+                        <div class="score-circle">
+                            <span id="trust-score">--</span>%
+                        </div>
+                    </div>
+                    <div class="verification-details">
+                        <h3>Analysis</h3>
+                        <p id="analysis-text">Enter text to verify</p>
+                    </div>
+                    <div class="community-votes">
+                        <h3>Community Votes</h3>
+                        <div class="vote-buttons">
+                            <button class="vote-btn true">True</button>
+                            <button class="vote-btn fake">Fake</button>
+                            <button class="vote-btn review">Needs Review</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>SatyaAI</h3>
+                <p>Empowering rural communities with AI-powered fact-checking</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p><a href="2024cssparsh18135@poornima.edu.in" style="text-decoration: none;
+                color: white;">Email - 2024cssparsh18135@poornima.edu.in</a></p>
+                <p>Phone: +91 8005716859</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 SatyaAI. All rights reserved.</p>
+        </div>
+    </footer> 
+
+    <script src="script2.js"></script>
+</body>
+</html> 
